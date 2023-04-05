@@ -42,6 +42,7 @@ header{
     flex-direction: row-reverse;
 }
 
+
 .imageRonde{
     border-radius: 50%;
 }
@@ -73,8 +74,8 @@ header{
 
 #contact a{
     color: #FAF9F8;
-   display: block;
-   line-height: 2;
+    display: block;
+    line-height: 2;
 }
 
 h1, header span{
@@ -94,7 +95,7 @@ h2 .fa-solid{
 }
 header h2{
     color: black;
-    background-color: #FAF9F8;
+    /* background-color: #FAF9F8; */
     padding-bottom: 20px;
     font-size: 35px;
 }
@@ -122,10 +123,6 @@ header span{
      background-color: #FAF9F8;
 }
 
-.blocDroit h2{
-    background-color: white;
-}
-
 .blocDroit div, .blocDroit h1{
     padding: 10px 10px;
 }
@@ -142,13 +139,17 @@ header span{
     color: #212121;
 }
 
+footer section{
+    width: 100%;
+}
+
 footer article{
     padding: 20px 50px;
     
 }
-.forme p{
+/* .forme p{
     width: 100%;
-}
+} */
 
 p{
     padding: 10px;
@@ -231,8 +232,8 @@ main span{
     }
 
      footer h3{
-        margin: 0%;
-        padding: 0%;
+        margin: 0;
+        padding: 0;
         text-align: center;
      }
     
