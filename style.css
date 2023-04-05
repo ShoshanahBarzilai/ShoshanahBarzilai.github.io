@@ -1,0 +1,272 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+main{
+    color: #212121;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hgroup{
+    padding-top: 25px;
+}
+
+h1, h2{
+    
+}
+
+header div{
+    text-align: center;
+    padding: 20px;
+}
+
+header img{
+    width: 50%;
+    height: auto;
+}
+header h2{
+    padding-left: 10px;
+}
+
+header{
+    flex-direction: row-reverse;
+}
+
+.imageRonde{
+    border-radius: 50%;
+}
+.fa-brands.fa-linkedin{
+    color:#0A66C2;
+    font-size: 20px;
+    padding: 5px 5px 5px 0;
+}
+.fa-solid.fa-square-phone-flip{
+    color: green;
+    font-size: 20px;
+}
+.fa-solid.fa-square-envelope{
+    color: red;
+    font-size: 20px;
+}
+
+.fa-solid{
+    color:#966DE8;
+    padding: 5px 5px 5px 0;
+    
+ }
+
+ .fa-regular{
+    padding: 5px;
+    color: #966DE8;
+ }
+
+
+#contact a{
+    color: #FAF9F8;
+   display: block;
+   line-height: 2;
+}
+
+h1, header span{
+    font-size: 60px;
+}
+
+main h2, footer h2{
+    color: black;
+    padding: 5px 100px;
+    font-size: 35px;
+    margin: 0 20px;
+    border-bottom: solid 1px;
+}
+
+h2 .fa-solid{
+    font-size: 35px;
+}
+header h2{
+    color: black;
+    background-color: #FAF9F8;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+header span{
+    color: #966DE8;
+}
+.titreH2{
+    background: linear-gradient(45deg, #FF66C4 0%, #5271FF 100%);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.blocGauche{
+    width: 30%;
+    background-color:#212121;
+    color: #FAF9F8;
+     
+}
+ 
+.blocDroit{
+     width: 70%;
+     background-color: #FAF9F8;
+}
+
+.blocDroit h2{
+    background-color: white;
+}
+
+.blocDroit div, .blocDroit h1{
+    padding: 10px 10px;
+}
+.blocGauche div{
+    padding: 10px;
+}
+
+.date{
+    width: 20%;
+}
+
+.ecole{
+    text-decoration: none;
+    color: #212121;
+}
+
+footer article{
+    padding: 20px 50px;
+    
+}
+.forme p{
+    width: 100%;
+}
+
+p{
+    padding: 10px;
+}
+
+
+article p{
+    padding: 20px 0 20px 0;
+}
+
+div ul{
+    padding-bottom: 20px;
+}
+
+.centre{
+    text-align: center;
+    padding: 3px 0 3px 0;
+}
+
+
+ul{
+    padding-left: 50px;
+}
+.loisir{
+    text-align: center;
+}
+
+.loisir i{
+    padding: 15px;
+    font-size: 30px;
+    border: solid #FF66C4;
+    border-radius: 50%;
+    margin:5px;
+    height: 68px;
+    width: 68px;
+    color: #FF66C4;
+}
+
+footer article{
+    padding-bottom: 20px;
+}
+#exPro h3{
+    text-decoration: underline;
+}
+
+main span{
+    display: block;
+    padding-left: 22px;
+}        
+
+@media (max-width:1024px){
+    .blocGauche, .blocDroit{
+        width: 100%;
+    }
+    .date{
+        width: 100%;
+        padding-left: 10px;
+        }
+    header h1, header h2{
+        text-align: center;
+    }
+    main{
+        flex-direction: column;
+    }
+
+    hgroup{
+        padding-top: 0;
+    }
+
+    .imageRonde{
+        width: 25%;
+    }
+
+    main h2, footer h2{
+        padding: 5px 40px;
+        margin: 0 20px;}
+        
+    .blocDroit article{
+        margin-left: 20px;
+    }
+
+     footer h3{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+     }
+    
+    footer{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:800px){
+    main h2, footer h2{
+        padding: 5px 10px;
+        margin: 0 20px;}
+        *{
+            font-size: 16px;
+        }
+        h1, header span{
+            font-size: 50px;
+        }
+        body h2{
+            font-size: 25px;
+        }
+
+}
+
+@media (max-width:500px) {
+    h1, header span{
+        font-size: 40px;
+    }
+    body h2{
+        font-size: 20px;
+    }
+    
+    .loisir .fa-solid{
+        font-size: 30px;
+    }
+    
+}
