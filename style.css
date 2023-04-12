@@ -21,6 +21,7 @@ main{
     flex-wrap: wrap;
 }
 
+
 hgroup{
     padding-top: 25px;
 }
@@ -91,7 +92,7 @@ main h2, footer h2{
     padding: 5px 100px;
     font-size: 35px;
     margin: 0 20px;
-    border-bottom: solid 1px;
+    border-bottom: solid 1px #966DE8;
 }
 
 h2 .fa-solid{
@@ -112,6 +113,7 @@ header span{
     text-align: center;
     margin: 0;
     padding: 10px;
+    border-bottom: none;
 
 }
 
@@ -132,6 +134,14 @@ header span{
 }
 .blocGauche div{
     padding: 10px;
+}
+
+.competences{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 30px auto;
+    line-height: 2rem;
 }
 
 .date{
